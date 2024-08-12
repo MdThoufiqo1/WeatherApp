@@ -12,8 +12,8 @@
 .card-2{
   background-color:transparent;
   margin: 20px;
-  width: 40%;
-  height: 500px;
+  width: 60%;
+  height: 350px;
   border-radius: 25px;
   box-shadow: 5px 5px 5px 10px wheat;
   padding: 9px;
@@ -39,11 +39,11 @@
 .input-control{
   border-radius: 12px;
   border-color: black;
-  padding: 15px;
+  padding: 10px;
   background: transparent;
   width: 300px;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
 }
 .image-card{
   width: 200px;
@@ -53,13 +53,13 @@
 }
 .head-1{
   color:black;
-  font-size: 50px;
+  font-size: 40px;
   padding: 15px;
   font-weight: 600px;
 }
 .para-1{
   color:black;
-  font-size: 50px;
+  font-size: 30px;
   padding: 9px;
 }
 
@@ -89,12 +89,12 @@ p{
 
 .button{
   width: 150px;
-  font-size: 40px;
+  font-size: 15px;
 }
 @media screen and (max-width:600px){
   .card-2{
     width: 350px;
-    height: 500px;
+    height: 300px;
 
   }
   .input-control{
