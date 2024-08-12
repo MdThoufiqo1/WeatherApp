@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-1{
+  background-image:url("../public/Images/weather-4.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.card-2{
+  background-color:transparent;
+  margin: 20px;
+  width: 50%;
+  height: 500px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px 10px wheat;
+  padding: 12px;
+  
+}
+ 
+
+.body{
+   margin:0;
+    
+}
+.head{
+  font-size: 50px;
+  color:black;
 }
 
-.App-link {
-  color: #61dafb;
+.input-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.input-control{
+  border-radius: 12px;
+  border-color: black;
+  padding: 15px;
+  background: transparent;
+  width: 400px;
+  color: black;
+  font-size: 30px;
+}
+.image-card{
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  margin: 12px;
+}
+.head-1{
+  color:black;
+  font-size: 50px;
+  padding: 15px;
+  font-weight: 600px;
+}
+.para-1{
+  color:black;
+  font-size: 50px;
+  padding: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+p{
+  font-size: 30px;
+  color:white;
+  padding: 12px;
+}
+.para{
+  font-size: 30px;
+  color:bisque;
+  padding: 9px;
+}
+.card-para{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(119, 112, 112);
+  border-radius: 12px;
+}
+
+.card-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button{
+  width: 200px;
+  font-size: 40px;
+}
+@media screen and (max-width:600px){
+  .card-2{
+    width: 350px;
+    height: 500px;
+
   }
-  to {
-    transform: rotate(360deg);
+  .input-control{
+    width: 200px;
+    font-size: 15px;
+    padding: 9px;
   }
+  p{
+    font-size: 20px;
+    
+  }
+  .para{
+    font-size: 15px;
+    
+  }
+  .head{
+    font-size: 30px;
+    
+  }
+  .input-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+  .button{
+    width: 150px;
+  }
+  .image-card{
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    margin: 12px;
+  }
+  .head-1{
+  
+    font-size: 25px;
+    padding: 6px;
+  }
+  .para-1{
+    font-size: 20px;
+    padding: 6px;
+  } 
 }
