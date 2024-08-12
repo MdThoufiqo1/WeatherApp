@@ -12,11 +12,11 @@
 .card-2{
   background-color:transparent;
   margin: 20px;
-  width: 50%;
+  width: 40%;
   height: 500px;
   border-radius: 25px;
   box-shadow: 5px 5px 5px 10px wheat;
-  padding: 12px;
+  padding: 9px;
   
 }
  
@@ -41,7 +41,7 @@
   border-color: black;
   padding: 15px;
   background: transparent;
-  width: 400px;
+  width: 300px;
   color: black;
   font-size: 30px;
 }
@@ -60,13 +60,13 @@
 .para-1{
   color:black;
   font-size: 50px;
-  padding: 12px;
+  padding: 9px;
 }
 
 p{
   font-size: 30px;
   color:white;
-  padding: 12px;
+  padding: 9px;
 }
 .para{
   font-size: 30px;
@@ -88,7 +88,7 @@ p{
 }
 
 .button{
-  width: 200px;
+  width: 150px;
   font-size: 40px;
 }
 @media screen and (max-width:600px){
